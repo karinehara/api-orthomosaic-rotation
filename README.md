@@ -8,11 +8,11 @@ This FastAPI application is designed to provide image processing capabilities, i
 
 - `GET /token-auth`: This endpoint is used to obtain an authentication token by sending a username and password to an external authentication service. The token is required for accessing protected routes.
 
--`GET /get-orthophoto`: This endpoint fetches an orthophoto image file from an external service, processes it, and returns the processed image along with its rotation angle. It requires a project ID, task ID, and a valid authentication token.
+- `GET /get-orthophoto`: This endpoint fetches an orthophoto image file from an external service, processes it, and returns the processed image along with its rotation angle. It requires a project ID, task ID, and a valid authentication token.
 
--`POST /upload`: This endpoint allows users to upload an image file for processing. The uploaded image is processed to remove the background and return the processed image along with its rotation angle.
+- `POST /upload`: This endpoint allows users to upload an image file for processing. The uploaded image is processed to remove the background and return the processed image along with its rotation angle.
 
--`GET /download/{filename}`: This endpoint allows users to download previously processed image files from the server.
+- `GET /download/{filename}`: This endpoint allows users to download previously processed image files from the server.
 
 ## Requirements
 
