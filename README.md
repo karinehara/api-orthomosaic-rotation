@@ -1,4 +1,4 @@
-# Orthomosaic Rotation
+# API - Orthomosaic Rotation
 
 This directory contains code for the rotation of orthomosaics, a crucial process in the image processing of aerial or satellite images. The purpose is to align images with the horizontal axis. The code provides functionalities for image loading, processing, and rotation correction.
 
